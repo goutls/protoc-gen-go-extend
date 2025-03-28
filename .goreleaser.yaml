@@ -10,9 +10,6 @@ version: 2
 
 brews:
   - name: protoc-gen-go-extend
-    alternative_names:
-      - protoc-gen-go-extend@{{ .Version }}
-      - protoc-gen-go-extend@{{ .Major }}
 
     # GOARM to specify which 32-bit arm version to use if there are multiple
     # versions from the build section. Brew formulas support only one 32-bit
