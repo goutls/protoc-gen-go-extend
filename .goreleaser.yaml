@@ -15,8 +15,8 @@ builds:
     goos:
       - linux
       - windows
-    goarch:
-      - amd64
+      - darwin
+    main: ./cmd/
   - env:
       - CGO_ENABLED=0
     goos:
