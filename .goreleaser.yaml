@@ -10,14 +10,6 @@ version: 2
 
 brews:
   - name: protoc-gen-go-extend
-
-    # Alternative names for the current recipe.
-    #
-    # Useful if you want to publish a versioned formula as well, so users can
-    # more easily downgrade.
-    #
-    # This feature is only available in GoReleaser Pro.
-    # Templates: allowed.
     alternative_names:
       - protoc-gen-go-extend@{{ .Version }}
       - protoc-gen-go-extend@{{ .Major }}
