@@ -9,12 +9,7 @@
 version: 2
 
 brews:
-  -
-    # Name of the recipe
-    #
-    # Default: the project name.
-    # Templates: allowed.
-    name: protoc-gen-go-extend
+  - name: protoc-gen-go-extend
 
     # Alternative names for the current recipe.
     #
