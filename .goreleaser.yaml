@@ -10,6 +10,13 @@ version: 2
 
 
 builds:
+  - binary: foo
+    id: foo
+    goos:
+      - linux
+      - windows
+    goarch:
+      - amd64
   - env:
       - CGO_ENABLED=0
     goos:
