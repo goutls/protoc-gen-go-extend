@@ -15,6 +15,7 @@ builds:
       - linux
       - windows
       - darwin
+      - debian
     main: ./cmd/
   - env:
       - CGO_ENABLED=0
